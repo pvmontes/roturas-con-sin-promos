@@ -113,7 +113,7 @@ View(roturas_por_servicios_promo)
 
 roturas_totales <- merge(roturas_por_servicios_no_promo, roturas_por_servicios_promo, by = c("codCentro", "codArticulo"))
 
-View(roturas_totales)
+# View(roturas_totales)
 
 
 
@@ -121,7 +121,7 @@ write.csv(roturas_totales, "roturas_totales.csv")
 
 
 
-
+#To knowing the article name we would use a table from Database.
 
 
 
