@@ -128,24 +128,6 @@ write.csv(roturas_totales, "roturas_totales.csv")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Code chunks.
 
 # View(roturas_por_servicios[order(roturas_por_servicios$porcent_roturas, decreasing = TRUE),])
